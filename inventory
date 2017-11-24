@@ -3,6 +3,5 @@
 # Ensure each environment follows the example below and also create a file
 # called group_vars/<environment>/vars.yml to hold environment specific settings
 
-[non-prod]
-non-prod ansible_connection=local
-
+[production]
+production ansible_connection=local
