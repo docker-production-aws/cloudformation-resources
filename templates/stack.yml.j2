@@ -1,0 +1,12 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Description: CloudFormation Resources - {{ env }}
+
+Resources:
+  CfnLambdaBucket:
+    Type: AWS::S3::Bucket
+    Properties:
+      BucketName:
+        Fn::Sub: ${AWS::AccountId}-cfn-lambda
+      VersioningConfiguration:
+        Status: Enabled
