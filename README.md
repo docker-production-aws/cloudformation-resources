@@ -8,9 +8,9 @@ This repository is part of the [Docker in Production using Amazon Web Services](
 
 This repository contains two branches:
 
-- [`master`](tree/master) - represents the initial starting state of the repository as viewed in the course.  Specifically this is an empty repository that you are instructed to create in the module **Deploying AWS Infrastructure Using Ansible and CloudFormation**.
+- [`master`](https://github.com/docker-production-aws/cloudformation-resources/tree/master) - represents the initial starting state of the repository as viewed in the course.  Specifically this is an empty repository that you are instructed to create in the module **Deploying AWS Infrastructure Using Ansible and CloudFormation**.
 
-- [`final`](tree/final) - represents the final state of the repository after completing all configuration tasks as described in the course material.
+- [`final`](https://github.com/docker-production-aws/cloudformation-resources/tree/final) - represents the final state of the repository after completing all configuration tasks as described in the course material.
 
 > The `final` branch is provided as a convenience in the case you get stuck, or want to avoid manually typing out large configuration files.  In most cases however, you should attempt to configure this repository by following the course material.
 
